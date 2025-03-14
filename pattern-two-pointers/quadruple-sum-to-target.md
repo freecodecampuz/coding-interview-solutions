@@ -25,6 +25,8 @@ Explanation: Both the quadruplets add up to the target.
 - -109 <= nums[i] <= 109
 - -109 <= target <= 109
 
+Same as: https://leetcode.com/problems/4sum/description/
+
 ## Solution
 
 ```javascript
