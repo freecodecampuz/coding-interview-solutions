@@ -22,7 +22,14 @@ Output: true
 Explanation: After applying backspaces the strings become "x" and "x" respectively.
 ```
 
+!Consider this case too:
+```
+s = "nzp#o#g"
+t = "b#nzp#o#g"
+expected: true
+```
 
+## 1
 ```javascript
 var backspaceCompare = function(s, t) { // Time Complexity: O(n+m), Space Complexity: O(1).
     const itrOfs = trimBackspaces(s); // O(n)
@@ -54,4 +61,70 @@ function* trimBackspaces(str) {
         }
     }
 }
+```
+
+# 2
+
+```
+var backspaceCompare = function(s, t) {
+    let i = s.length-1;
+    let j = t.length-1;
+
+    let iSkip = 0, tSkip = 0;
+    while(i>-1 && j>-1) {
+
+        while(i>-1) {
+            if(s[i]==='#') {
+                iSkip++;                
+            } else if (iSkip>0) {
+                iSkip--;
+            } else {
+                break;
+            }
+            i--;
+        }
+
+        while(j>-1) {
+            if(t[j]==='#') {
+                tSkip++;                
+            } else if (tSkip>0) {
+                tSkip--;
+            } else {
+                break;
+            }
+            j--;
+        }
+
+        if (s[i]===t[j]) {
+            i--;
+            j--;
+        } else {
+            return false;
+        }
+    }
+
+     while(i>-1) {
+        if(s[i]==='#') {
+            iSkip++;                
+        } else if (iSkip>0) {
+            iSkip--;
+        } else {
+            break;
+        }
+        i--;
+    }
+
+    while(j>-1) {
+        if(t[j]==='#') {
+            tSkip++;                
+        } else if (tSkip>0) {
+            tSkip--;
+        } else {
+            break;
+        }
+        j--;
+    }
+
+    return s[i]===t[j];
+};
 ```
