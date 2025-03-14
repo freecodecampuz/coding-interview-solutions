@@ -1,6 +1,6 @@
 # Comparing Strings containing Backspaces
 
-### Problem Statement
+## Problem Statement
 Given two strings containing backspaces (identified by the character ‘#’), check if the two strings are equal.
 
 Example 1:
@@ -71,7 +71,7 @@ function* trimBackspaces(str) {
 }
 ```
 
-# Solution 2
+## Solution 2
 
 ```
 var backspaceCompare = function(s, t) {
