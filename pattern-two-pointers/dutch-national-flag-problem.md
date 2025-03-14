@@ -20,6 +20,7 @@ Output: `[0 0 1 2 2 2 ]`
 - 1 <= n <= 300
 - arr[i] is either 0, 1, or 2.
 
+Same as: https://leetcode.com/problems/sort-colors/description/
 
 ## Solution
 
