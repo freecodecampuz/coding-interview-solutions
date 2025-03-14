@@ -1,4 +1,4 @@
-# Comparing Strings containing Backspaces (medium)
+# Comparing Strings containing Backspaces
 
 ### Problem Statement
 Given two strings containing backspaces (identified by the character ‘#’), check if the two strings are equal.
@@ -28,6 +28,8 @@ s = "nzp#o#g"
 t = "b#nzp#o#g"
 expected: true
 ```
+
+Same as https://leetcode.com/problems/backspace-string-compare/description/
 
 ## Solution 1
 ```javascript
