@@ -15,7 +15,7 @@ Input: `[2, 2, 0, 1, 2, 0]`
 
 Output: `[0 0 1 2 2 2 ]`
 
-### Constraints:
+#### Constraints:
 - n == arr.length
 - 1 <= n <= 300
 - arr[i] is either 0, 1, or 2.
