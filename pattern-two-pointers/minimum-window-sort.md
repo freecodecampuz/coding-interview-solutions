@@ -32,6 +32,8 @@ Output: 3
 - `1 <= nums.length <= 10^4`
 - `-10^5 <= nums[i] <= 10^5`
 
+Same as https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+
 ## Solution 
 
 ```javascript
