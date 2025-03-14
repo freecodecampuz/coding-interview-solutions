@@ -29,7 +29,7 @@ t = "b#nzp#o#g"
 expected: true
 ```
 
-## 1
+## Solution 1
 ```javascript
 var backspaceCompare = function(s, t) { // Time Complexity: O(n+m), Space Complexity: O(1).
     const itrOfs = trimBackspaces(s); // O(n)
@@ -63,7 +63,7 @@ function* trimBackspaces(str) {
 }
 ```
 
-# 2
+# Solution 2
 
 ```
 var backspaceCompare = function(s, t) {
