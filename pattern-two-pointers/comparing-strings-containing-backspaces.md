@@ -22,6 +22,12 @@ Output: true
 Explanation: After applying backspaces the strings become "x" and "x" respectively.
 ```
 
+Constraints:
+
+- `1 <= s.length, t.length <= 200`
+- `s` and `t` only contain lowercase letters and `'#'` characters.
+
+
 !Consider this case too:
 ```
 s = "nzp#o#g"
