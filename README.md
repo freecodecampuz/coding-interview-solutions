@@ -10,3 +10,4 @@ Patterns
 - [Fast & Slow Pointers](fast-and-slow-pointers/)
   - [Linkedlist Cycle](fast-and-slow-pointers/linkedlist-cycle.md)
   - [Middle of the LinkedList](fast-and-slow-pointers/middle-of-the-linkedlist.md)
+  - [Start of LinkedList Cycle](fast-and-slow-pointers/start-of-linkedlist-cycle.md)
