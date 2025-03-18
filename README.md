@@ -9,3 +9,4 @@ Patterns
   - [Minimum Window Sort](pattern-two-pointers/minimum-window-sort.md)
 - [Fast & Slow Pointers](fast-and-slow-pointers/)
   - [Linkedlist Cycle](fast-and-slow-pointers/linkedlist-cycle.md)
+  - [Middle of the LinkedList](fast-and-slow-pointers/middle-of-the-linkedlist.md)
