@@ -29,5 +29,17 @@ Same as: https://leetcode.com/problems/middle-of-the-linked-list/
 ## Solution
 
 ```javascript
+function middleNode(head) { // O(n)
+    // [1, 2, 3, 4, 5] => i,j where j is twice faster than i
+    //  ij
+    //     i  j
+    //        i     j
+    let slow=head, fast=head;
 
+    while (fast && fast.next) {
+        slow=slow.next;
+        fast = fast.next.next;
+    }
+    return slow;
+};
 ```
