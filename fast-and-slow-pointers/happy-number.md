@@ -36,6 +36,8 @@ Output: false
 ### Constraints:
 - `1 <= n <= 2^31 - 1`
 
+Same as: https://leetcode.com/problems/happy-number/
+
 ## Solution
 
 ```javascript
