@@ -13,3 +13,4 @@ Patterns
   - [Start of LinkedList Cycle](fast-and-slow-pointers/start-of-linkedlist-cycle.md)
   - [Happy Number](fast-and-slow-pointers/happy-number.md)
   - [Palindrome LinkedList](fast-and-slow-pointers/palindrome-linkedlist.md)
+  - [Rearrange a LinkedList](fast-and-slow-pointers/rearrange-a-linkedlist.md)
