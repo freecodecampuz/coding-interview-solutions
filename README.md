@@ -14,3 +14,4 @@ Patterns
   - [Happy Number](fast-and-slow-pointers/happy-number.md)
   - [Palindrome LinkedList](fast-and-slow-pointers/palindrome-linkedlist.md)
   - [Rearrange a LinkedList](fast-and-slow-pointers/rearrange-a-linkedlist.md)
+  - [Cycle in a Circular Array](fast-and-slow-pointers/cycle-in-a-circular-array.md)
