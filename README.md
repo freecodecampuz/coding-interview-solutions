@@ -17,4 +17,4 @@ Patterns
   - [Cycle in a Circular Array](fast-and-slow-pointers/cycle-in-a-circular-array.md)
 - [Sliding Window](/sliding-window)
   - [Maximum Sum Subarray of Size K](/sliding-window/maximum-sum-subarray-of-size-k.md)
-  - 
+  - [Minimum Size Subarray Sum](/sliding-window/minimum-size-subarray-sum.md)
