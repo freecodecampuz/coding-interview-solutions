@@ -1,6 +1,8 @@
 # coding-interview-solutions
 Coding interview solutions
 
+[code template](https://algo.monster/templates)
+
 Patterns
 - [Two Pointers](pattern-two-pointers/)
   - [Comparing Strings containing Backspaces](pattern-two-pointers/comparing-strings-containing-backspaces.md)
