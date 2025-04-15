@@ -27,3 +27,32 @@ Constraints:
 1 <= nums.length <= 105
 1 <= nums[i] <= 104
 ```
+
+Same as: https://leetcode.com/problems/minimum-size-subarray-sum/
+
+## Solution 
+
+```javascript
+var minSubArrayLen = function(target, nums) {
+    let anws = Number.MAX_SAFE_INTEGER;
+    let i = 0, sum=0;
+
+    for(let j=0; j<nums.length; j++) {
+        sum+=nums[j];
+        if (sum >= target) {            
+            while(sum >= target) {
+                anws = Math.min(anws, j-i+1);
+                if (anws===1) {
+                    return 1;
+                }
+                sum -= nums[i];
+                i++;
+            }
+        }
+    }
+    return anws===Number.MAX_SAFE_INTEGER ? 0 : anws;
+};
+```
+
+- Time complexity: O(n)
+- Space compexisty: O(1)
