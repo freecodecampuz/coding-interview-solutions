@@ -22,3 +22,4 @@ Patterns
   - [Minimum Size Subarray Sum](/sliding-window/minimum-size-subarray-sum.md)
   - [Longest Substring with K Distinct Characters](/sliding-window/longest-substring-with-k-distinct-characters.md)
   - [Fruits into Baskets](/sliding-window/fruits-into-baskets.md)
+  - [Longest Repeating Character Replacement](/sliding-window/longest-substring-with-same-letters-after-replacement.md)
