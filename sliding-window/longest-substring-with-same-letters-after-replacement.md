@@ -29,6 +29,8 @@ There may exist other ways to achieve this answer too.
 - `s` consists of only uppercase English letters.
 - `0 <= k <= s.length`
 
+The same as: https://leetcode.com/problems/longest-repeating-character-replacement/description/
+
 ## Solution
 
 ```javascript
