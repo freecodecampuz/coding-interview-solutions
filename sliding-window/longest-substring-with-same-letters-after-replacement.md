@@ -32,11 +32,11 @@ There may exist other ways to achieve this answer too.
 ## Solution
 
 ```javascript
-var characterReplacement = function(s, k) {
+var characterReplacement = function (s, k) {
   const frequency = new Map();
   let left = 0, right = 0, max = 0, currentLength = 0, maxFrequency = 0;
 
-  while(right < s.length) {
+  while (right < s.length) {
     frequency.set(s[right], (frequency.get(s[right]) || 0) + 1);
     maxFrequency = Math.max(...Array.from(frequency.values()));
     currentLength = right - left + 1
@@ -44,8 +44,13 @@ var characterReplacement = function(s, k) {
       frequency.set(s[left], frequency.get(s[left]) - 1);
       left++;
     }
+    max = Math.max(max, right - left + 1);
     right++;
   }
+  return max;
 }
 ```
+
+- Time complexity: O(n)
+- Time complexity: O(1)
 
